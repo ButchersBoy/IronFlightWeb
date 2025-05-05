@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode cloudflare",   
-    "build:gh": "vite build --mode gh-pages",   
+    "build:deleleme": "vite build --mode cloudflare",   
+    "build": "vite build --mode gh-pages",   
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
