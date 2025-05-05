@@ -9,6 +9,9 @@ module.exports = {
           dark: '#000000',
         },
       },
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+      },
     },
   },
   plugins: [],

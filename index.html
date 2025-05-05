@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iron Flight</title>
     <link rel="icon" href="/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
   </head>
-  <body class="dark bg-background-dark text-gray-400 min-h-screen flex items-center justify-center flex flex-col">
+  <script>
+    if (location.hostname === 'butchersboy.github.io') {
+      window.location.replace(
+        'https://ironflight.com' + location.pathname + location.search + location.hash
+      );
+    }
+  </script>  
+  <body class="dark bg-background-dark font-orbitron text-gray-400 min-h-screen flex items-center justify-center flex flex-col">
     <div class="w-64 h-64 bg-gray-800 flex items-center justify-center rounded-lg shadow-lg">
       <img src="/IronFlightLogoSquare600.png" alt="Iron Flight Logo" class="max-w-full max-h-full" />
     </div>
-    <div class="mt-10">
+    <div class="mt-10 text-xl">
       In Development Now
     </div>
     <script type="module" src="/src/main.js"></script>
