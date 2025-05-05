@@ -9,6 +9,13 @@
     <script type="module" crossorigin src="/assets/index-7ce8d62a.js"></script>
     <link rel="stylesheet" href="/assets/index-ab197531.css">
   </head>
+  <script>
+    if (location.hostname === 'butchersboy.github.io') {
+      window.location.replace(
+        'https://ironflight.com' + location.pathname + location.search + location.hash
+      );
+    }
+  </script>  
   <body class="dark bg-background-dark font-orbitron text-gray-400 min-h-screen flex items-center justify-center flex flex-col">
     <div class="w-64 h-64 bg-gray-800 flex items-center justify-center rounded-lg shadow-lg">
       <img src="/IronFlightLogoSquare600.png" alt="Iron Flight Logo" class="max-w-full max-h-full" />
